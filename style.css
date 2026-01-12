@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(37, 37, 37);
+    color:white;
+    font-size: 21px;
+}
+header{
+    background-color: lightblue;
+    color: black;
+    margin: 5px;
+    padding: 12px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+img{
+    border-radius: 15px;
+}
+main,footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:rgb(191, 133, 245);
+    border: 3px solid white;
+    border-radius: 3px;
+    padding: 6px;
+    text-align: center;
+    width: 400px;
+}
+footer{
+    background-color: rgb(70, 134, 207);
+    padding: 5px;
+    border-radius: 3px;
+    height: 200px;
+    ;
+}
+footer p{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 3px;
+}
+nav{
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+     display: flex;
+     justify-content:space-around;
+     gap: 120px;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+select{
+    background-color: rgb(4, 128, 4);
+    padding: 3px;
+    border:2px solid rgb(252, 252, 252);
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+div p{
+    text-align: center;
+    background-color: white;
+    color:black;
+    border-radius: 15px;
+    padding: 8px;
+}
+ .bighit{
+    border: 3px solid lightblue;
+    padding: 7px;
+    text-decoration: none;
+    color: lightblue;
+    border-radius: 3px;
+}
+h2{
+    color: rgb(252, 72, 108);
+    margin-top: 50px;
+}
+
+
+
